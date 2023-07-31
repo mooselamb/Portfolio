@@ -1,4 +1,3 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
 ### Resources Used in This Project
 
 - Profile image in the home page created by using https://www.midjourney.com/ tool.
