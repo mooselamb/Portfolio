@@ -37,14 +37,14 @@ const NavBar = () => {
             >
               <TwitterIcon />
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://github.com/mooselamb" target={"_blank"}
             whileHover={{ scale: [null, 1.5, 1.4] }}
             transition={{ duration: 0.3 }}
             className='w-6 mx-3'
             >
               <GithubIcon />
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://www.linkedin.com/in/umair-w-shafiq/" target={"_blank"}
             whileHover={{ scale: [null, 1.5, 1.4] }}
             transition={{ duration: 0.3 }}
             className='w-6 mx-3'
