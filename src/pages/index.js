@@ -5,6 +5,8 @@ import profilePic from "../../public/images/profile/digibrain.png";
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons';
+import HireMe from '@/components/HireMe';
+import lightBulb from "../../public/images/lightBulb-transformed.png";
 
 export default function Home() {
   return (
@@ -25,7 +27,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Hi! I'm Umair Shafiq!" className='!text-6xl !text-left'/>
               <p className='my-4 text-base font-medium'>
-              A Frontend focused Web Developer who believes in championing cutting-edge web development and driving innovation in exceptional user experiences.
+              A Frontend focused Fullstack Web Developer who believes in championing cutting-edge web development and driving innovation in exceptional user experiences.
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link href="/Umair Shafiq Resume.pdf" target={"_blank"}
@@ -38,10 +40,16 @@ export default function Home() {
                 <Link href="mailto:umairshafiqprof@gmail.com" target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-blue-400 underline'
                 >Contact</Link>
+
               </div>
             </div>
           </div>
         </Layout>
+
+        <HireMe />
+        <div className='absolute right-8 -bottom-1 inline-block w-auto'>
+          <Image src={lightBulb} alt="Lightbulb" className='max-w-sm h-auto' />
+        </div>
       </main>
     </>
   )
