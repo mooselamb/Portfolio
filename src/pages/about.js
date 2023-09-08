@@ -52,11 +52,11 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                Hey there! I'm Umair Shafiq, your friendly neighborhood
+                Hey there! I&apos;m Umair Shafiq, your friendly neighborhood
                 Fullstack Software Engineer with a particular passion for all
-                things Frontend. Whether it's crafting pixel-perfect UI or
+                things Frontend. Whether it&apos;s crafting pixel-perfect UI or
                 geeking out over the latest in Video and Boardgames, tech runs
-                through my veins. Currently, I'm obsessed with Ai and diving
+                through my veins. Currently, I&apos;m obsessed with Ai and diving
                 deep into its integration in code.
               </p>
 
@@ -64,14 +64,14 @@ const about = () => {
                 My most recent adventure took me to the exciting world of
                 Agri-tech, where I was fortunate to work with Noria Water
                 Technologies where I played a part in revamping UX-UI design and
-                ushering in a sleek serverless architecture. Nowadays, you'll
+                ushering in a sleek serverless architecture. Nowadays, you&apos;ll
                 find me tinkering with AI-enhanced projects, sharpening my web
                 development skills, and keeping up with the ever-evolving tech
                 trends.
               </p>
 
               <p className="font-medium">
-                My journey to my true calling wasn’t a straight line, however.
+                My journey to my true calling wasn&apos;t a straight line, however.
                 Five years ago, I was a medical school grad. But the siren song
                 of code lured me away to my true love: computer science. I
                 embraced the world of teaching and leveled up at the advanced
@@ -82,9 +82,9 @@ const about = () => {
               </p>
 
               <p className="font-medium mt-4">
-                So, if you're in the market for a tech-loving, design-crafting,
+                So, if you&apos;re in the market for a tech-loving, design-crafting,
                 web-developing wizard with a dash of informality and a whole lot
-                of drive, don't hesitate to reach out. Let's build something
+                of drive, don&apos;t hesitate to reach out. Let&apos;s build something
                 amazing together!
               </p>
             </div>
