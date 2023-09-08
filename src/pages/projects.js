@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import Gesvelte from "../../public/images/projects/gesvelte.png";
+import Gesvelte from "../../public/images/projects/Gesvelte.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
