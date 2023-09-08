@@ -30,7 +30,7 @@ export default function Home() {
               A Frontend focused Fullstack Web Developer who believes in championing cutting-edge web development and driving innovation in exceptional user experiences.
               </p>
               <div className='flex items-center self-start mt-2'>
-                <Link href="/Umair Shafiq Resume.pdf" target={"_blank"}
+                <Link href="/Umair Resume.docx" target={"_blank"}
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-xl text-lg font-semibold hover:bg-light hover:text-dark transition duration-300 ease-in-out
                 border-2 border-dark'
                 download={true}

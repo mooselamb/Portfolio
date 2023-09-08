@@ -51,19 +51,13 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://twitter.com/UmairSh04721823/" target={"_blank"}
             whileHover={{ scale: [null, 1.5, 1.4] }}
             transition={{ duration: 0.3 }}
             className='w-6 mx-3'
             >
-              <PinterestIcon />
-            </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
-            whileHover={{ scale: [null, 1.5, 1.4] }}
-            transition={{ duration: 0.3 }}
-            className='w-6 ml-3'
-            >
-              <DribbbleIcon />
+              
+              
             </motion.a>
         </nav>
 

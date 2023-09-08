@@ -67,7 +67,7 @@ const Experience = () => {
             work="At GeSvelte, I wore multiple hats, diving into everything from developing and maintaining custom Svelte components in TypeScript to embracing SCSS and atomic CSS. My decision to migrate the codebase from JavaScript to TypeScript paid off in spades, offering benefits of static typing and boosting developer productivity, especially in handling complex form configurations. On the project management side, I led sprint planning, managed the backlog, and facilitated daily stand-up meetings. Lastly, I utilized Svelte Kit’s layout API and parameter-based routing systems to create a modular and cohesive interface, completely bypassing the need for manual server configuration and external libraries for REST API endpoints."
           />
           <Details
-            position="Computer Science Instructor"
+            position="Computer Science Tutor"
             company="Riverside Community College"
             companyLink="https://www.rcc.edu/index.html"
             time="Jan 2023 - July 2023"
