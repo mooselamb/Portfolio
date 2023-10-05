@@ -57,8 +57,7 @@ const Experience = () => {
             companyLink="https://www.noriawater.com"
             time="Jan 2023 - Current"
             address="Los Angeles, CA"
-            work="Have the dual responsibility for working on the company website's UI/UX design as well as working on the RO-Spotlight™ water monitoring software. 
-                Used PHP, HTML, CSS, JavaScript, and React.js in conjunction with a custom Wordpress theme to build the website and used Python, NextJS, and Tailwind CSS to work on the RO-Spotlight™ digital dashboard."
+            work="At Noria Water Technologies, I currently spearhead the optimization of cloud infrastructure, utilizing AWS services like Lambda and RDS to achieve substantial cost savings and improved application uptime. In tandem, I'm tackling data processing bottlenecks by leveraging Kubernetes for container orchestration, enhancing both scalability and efficiency. I'm responsible for deploying machine learning algorithms to automate water quality assessments, which has significantly increased the accuracy of our readings. Furthermore, I actively collaborate across teams to integrate API services for IoT devices, thereby empowering real-time monitoring and data collection from various water treatment plants. My role is instrumental in not only improving the performance of our cloud-based applications but also in driving innovation in water treatment solutions."
           />
           <Details
             position="Software Engineer"
