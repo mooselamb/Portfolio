@@ -3,16 +3,18 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
-    const ref = useRef(null);
+  const ref = useRef(null);
 
   return (
-    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center jusitfy-between">
-
-        <LiIcon reference={ref}/>
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center jusitfy-between"
+    >
+      <LiIcon reference={ref} />
       <motion.div
-      initial={{y:50}}
-      whileInView={{y:0}}
-        transition={{duration:0.5, type:'spring'}}
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;
@@ -53,9 +55,9 @@ const Experience = () => {
             position="Software Engineer"
             company="Noria Water Technologies"
             companyLink="https://www.noriawater.com"
-            time="Jan 2023 - July 2023"
+            time="Jan 2023 - Current"
             address="Los Angeles, CA"
-            work="Had the dual responsibility for working on the company website's UI/UX design as well as worked on the RO-Spotlight™ water monitoring software. 
+            work="Have the dual responsibility for working on the company website's UI/UX design as well as working on the RO-Spotlight™ water monitoring software. 
                 Used PHP, HTML, CSS, JavaScript, and React.js in conjunction with a custom Wordpress theme to build the website and used Python, NextJS, and Tailwind CSS to work on the RO-Spotlight™ digital dashboard."
           />
           <Details
@@ -73,7 +75,6 @@ const Experience = () => {
             time="Jan 2023 - July 2023"
             address="Riverside City, CA"
             work="In the digital domain of higher education, I positioned myself at the nexus of design and functionality. Utilizing the prowess of Bootstrap, SASS/SCSS, and LESS, I crafted web layouts that were a harmonious blend of aesthetic appeal and consistency, resonating perfectly with the college's branding vision. My expertise with tools like Webpack and Vite streamlined the bundling and delivery of assets, ensuring that our website always performed at its peak. Collaborating closely with the backend team, our joint efforts saw frontend designs seamlessly integrated with server-side logic, employing the strengths of Node.js, Express.js, and GraphQL. Together, we journeyed through the intricate layers of web development, turning hurdles into opportunities and fostering an environment that championed innovation and knowledge sharing."
-
           />
         </ul>
       </div>
